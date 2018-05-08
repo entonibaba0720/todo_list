@@ -1,0 +1,47 @@
+body {
+    font-family: 'Lato', sans-serif;
+    width: 100vw;
+}
+
+#container {
+    width: 30vw;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+#todoList {
+    list-style: none;
+    font-size: 1rem;
+
+}
+
+h2 {
+    padding-top: 2rem;
+}
+
+h2, p {
+    text-align: center;
+}
+
+#add {
+    font-size: 1rem;
+}
+
+li {
+    border: 1px solid #ddd;
+    background-color: #eee;
+    display: inline-block;
+    padding: 1rem 2rem;
+    width: 75%;
+    cursor: default;
+}
+
+span {
+    padding-left: 0.8rem;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: #c00;
+    font-weight: bold;
+}
